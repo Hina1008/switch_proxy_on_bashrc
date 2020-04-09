@@ -1,0 +1,37 @@
+proxy="http://proxyserver:8080"
+switch_trigger_location=University
+
+
+#大学用
+function set_proxy(){
+
+export http_proxy=$proxy
+export https_proxy=$proxy
+export ALL_PROXY=$proxy
+
+#git
+git config --global http.proxy $proxy
+git config --global https.proxy $proxy
+
+}
+
+#自宅用
+function unset_proxy(){
+
+unset http_proxy
+unset https_proxy
+unset ALL_PROXY
+
+#git
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+}
+
+
+if [ "`networksetup -getcurrentlocation`" = "$switch_trigger_location" ]; then
+  echo "Switch the settings for behind proxy network"
+  set_proxy
+else
+  echo "Unset proxy settings"
+  unset_proxy
+fi
