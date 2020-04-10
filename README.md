@@ -1,6 +1,6 @@
 # switch_proxy_on_bashrc
 
-Please save as a ".bashrc"　and use it if your work or school has a proxy set up.
+Please save as a ".bashrc" and use it if your work or school has a proxy set up.
 
 ## Description
 First, configure the network environment.
