@@ -4,10 +4,11 @@ Please save as a ".bashrc"　and use it if your work or school has a proxy set u
 
 ## Description
 First, configure the network environment.
-<Mac>
+--Mac--
 System Preference → Network →　Edit network environment → Name it appropriately(I named "University")
 → Set proxy → Apply
-<Windows>
+ 
+--Windows--
  I don't know.
   
 After that save "bashrc.txt" as a ".bashrc" and write a your proxy server name on "proxyserver" in 
