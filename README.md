@@ -12,7 +12,7 @@ System Preference → Network →　Edit network environment → Name it appropr
  
 --Windows--
 
- I don't know.
+ Sorry, I don't know.
   
 After that save "bashrc.txt" as a ".bashrc" and write a your proxy server name on "proxyserver" in 
 1 proxy="http://proxyserver:8080"
