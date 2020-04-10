@@ -30,4 +30,5 @@ https://github.com/Hina1008/switch_proxy_on_bashrc/issues/3#issue-597686828
 
 if you choose the others, unset proxy.
 https://github.com/Hina1008/switch_proxy_on_bashrc/issues/2#issue-597686766
+https://github.com/Hina1008/switch_proxy_on_bashrc/issues/4#issue-597687034
 
