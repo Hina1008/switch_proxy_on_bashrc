@@ -24,6 +24,10 @@ if you don't make ".bash_profile" on home directory, please execute "touch .bash
 Completed by restarting the terminal.
 
 ## Demo
-if Your Network environment is "University", set for  behind proxy.
+if your Network environment is "University", set for  behind proxy.
 https://github.com/Hina1008/switch_proxy_on_bashrc/issues/1#issue-597686713
 https://github.com/Hina1008/switch_proxy_on_bashrc/issues/3#issue-597686828
+
+if you choose the others, unset proxy.
+https://github.com/Hina1008/switch_proxy_on_bashrc/issues/2#issue-597686766
+
