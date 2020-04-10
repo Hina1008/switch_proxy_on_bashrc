@@ -26,3 +26,4 @@ Completed by restarting the terminal.
 ## Demo
 if Your Network environment is "University", set for  behind proxy.
 https://github.com/Hina1008/switch_proxy_on_bashrc/issues/1#issue-597686713
+https://github.com/Hina1008/switch_proxy_on_bashrc/issues/3#issue-597686828
